@@ -180,8 +180,8 @@ if __name__ == "__main__":
     ]
     
     # 默认随机范围（用于步数设置为None的情况）
-    DefaultRandomMin = 35000
-    DefaultRandomMax = 65000
+    DefaultRandomMin = 20000
+    DefaultRandomMax = 36666
     
     for i in AccountGroup:   # 遍历用户账号组中的每个账号信息并对每个用户账号执行步数刷取操作
         account = i[0]
